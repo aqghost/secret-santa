@@ -1,0 +1,43 @@
+@font-face{
+font-family:"Sour Gummy";
+    src: url(https://fonts.gstatic.com/s/sourgummy/v1/8At7Gs2gPYuNDii97MjjLLvpghcw76OXBoIHpHgGTNNIOA.woff2) format('woff2');
+}
+body{
+    font-family: "Sour Gummy";
+    background-image: url(assets/images/bck-cloudtile.jpg);
+    font-size: 20px;
+}
+
+#gift{
+    height: 256px;
+    width: 256px;
+    margin-top: 5%;
+}
+#gift:hover{
+    content: url(assets/images/package-opened.png);
+    height: 256px;
+    width: 256px;
+}
+#centered-text1{
+    text-align: center;;
+}
+#gif{
+    height: 128px;
+    width: 128px;
+}
+#flippedgif{
+    height: 128px;
+    width: 128px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.gif-container{
+    text-align: center;
+    font-size: 14px;
+}
+.content{
+    font-family: "Sour Gummy";
+    text-align: left;
+    color:white;
+    background-color: rebeccapurple;
+}
